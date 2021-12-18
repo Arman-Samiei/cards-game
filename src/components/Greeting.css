@@ -1,0 +1,10 @@
+.greeting {
+    width: 40%;
+    margin: 3% auto 10%;
+    border: 3px #5e7d00 solid;
+    border-radius: 10px;
+    background-color: rgba(194, 31, 57, 0.1);
+    font-size: 3rem;
+    text-align: center;
+    direction: rtl;
+}

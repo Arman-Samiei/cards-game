@@ -1,0 +1,36 @@
+.username-getter-container{
+    direction: rtl;
+}
+.username-getter-container, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.username-getter-container *{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+form{
+    border: 1px solid #5e7d00;
+    border-radius: 8px;
+    padding: 8%;
+    width:100%;
+}
+
+.username-getter-container form input[type="submit"]{
+    margin-top: 9%;
+}
+
+form input{
+    border-radius: 6px;
+}
+
+.invalid-card-number{
+    padding: 1% 2%;
+    background-color: rgba(255, 0, 0, .7);
+    border-radius: 20px;
+}

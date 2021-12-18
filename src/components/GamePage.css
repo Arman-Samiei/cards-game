@@ -1,0 +1,23 @@
+.card-images {
+    --card-Columns: 5;
+    width: 50%;
+    height:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(var(--card-Columns), auto);
+}
+
+.card-images img{
+    width: 70%;
+    margin-top: 10%;
+    padding: 1rem;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.not-chosen-card {
+    background-color: black;
+    filter: brightness(0);
+}
